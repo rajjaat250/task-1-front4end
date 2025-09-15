@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SleekSelects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="container">
+        <a href="#" class="logo">SleekSelects</a>
+        <div class="search-bar">
+            <input type="text" placeholder="Search here">
+            <img src="images/icons/coolicon.png" alt="Search Icon" class="search-icon">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <a href="#" class="wishlist-link">
+                <img src="images/icons/wishlist.png" alt="Wishlist">
+                <span class="wishlist-count">0</span>
+            </a>
+            <a href="#" class="cart-link">
+                <img src="images/icons/carticon.png" alt="Cart">
+                <span class="cart-count">0</span>
+            </a>
+            <a href="#"><img src="images/icons/usericon.png" alt="User"></a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-main">
+                <div class="hero-text">
+                    <h1>Color of Summer Outfit</h1>
+                    <p>100+ Collections for your outfit inspirations in this summer.</p>
+                    <a href="#" class="btn">VIEW COLLECTIONS</a>
+                </div>
+            </div>
+            <div class="hero-side">
+                <div class="side-box outdoor-active">
+                    <h2>Outdoor Active</h2>
+                </div>
+                <div class="side-box casual-comfort">
+                    <h2>Casual Comfort</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="trending">
+            <div class="trending-header">
+                <h2>Trending</h2>
+                <div class="trending-nav">
+                    <button>SHORTS</button>
+                    <button>JACKETS</button>
+                    <button class="active">SHOES</button>
+                </div>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/trendingsection/image 1.png" alt="Casual Shoe">
+                    <div class="heart-icon red">
+                        <img src="https://api.iconify.design/bxs:heart.svg?color=white" alt="Liked Heart Icon">
+                    </div>
+                    <div class="product-info">
+                        <h3>Casual Shoe</h3>
+                        <p>$225</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/trendingsection/image 2.png" alt="Skateboard Shoe">
+                    <div class="heart-icon">
+                        <img src="https://api.iconify.design/bx:bx-heart.svg?color=black" alt="Like Heart Icon">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skateboard Shoe</h3>
+                        <p>$125</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/trendingsection/image 3.png" alt="High-top Skateboard Shoe">
+                    <div class="heart-icon">
+                        <img src="https://api.iconify.design/bx:bx-heart.svg?color=black" alt="Like Heart Icon">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skateboard Shoe</h3>
+                        <p>$125</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/trendingsection/image 4.png" alt="Green and White Skateboard Shoe">
+                    <div class="heart-icon">
+                        <img src="https://api.iconify.design/bx:bx-heart.svg?color=black" alt="Like Heart Icon">
+                    </div>
+                    <div class="product-info">
+                        <h3>Skateboard Shoe</h3>
+                        <p>$125</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/trendingsection/image 5.png" alt="Black and Red Basket Shoe">
+                    <div class="heart-icon">
+                        <img src="https://api.iconify.design/bx:bx-heart.svg?color=black" alt="Like Heart Icon">
+                    </div>
+                    <div class="product-info">
+                        <h3>Basket Shoe</h3>
+                        <p>$125</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/trendingsection/image 6.png" alt="White and Orange Sportwear Shoe">
+                    <div class="heart-icon">
+                        <img src="https://api.iconify.design/bx:bx-heart.svg?color=black" alt="Like Heart Icon">
+                    </div>
+                    <div class="product-info">
+                        <h3>Sportwear Shoe</h3>
+                        <p>$159</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="explore-colors">
+            <h2>Explore by Colors</h2>
+            <div class="color-options">
+                <div class="color-toggle">
+                    <input type="checkbox" id="color-red-pastel">
+                    <label for="color-red-pastel">
+                        <div class="color-circle red-pastel"></div>
+                        <span>RED PASTEL</span>
+                    </label>
+                </div>
+                <div class="color-toggle">
+                    <input type="checkbox" id="color-lime-green">
+                    <label for="color-lime-green">
+                        <div class="color-circle lime-green"></div>
+                        <span>LIME GREEN</span>
+                    </label>
+                </div>
+                <div class="color-toggle">
+                    <input type="checkbox" id="color-navy-blue">
+                    <label for="color-navy-blue">
+                        <div class="color-circle navy-blue"></div>
+                        <span>NAVY BLUE</span>
+                    </label>
+                </div>
+                <div class="color-toggle">
+                    <input type="checkbox" id="color-clean-white" checked>
+                    <label for="color-clean-white">
+                        <div class="color-circle clean-white"></div>
+                        <span>CLEAN WHITE</span>
+                    </label>
+                </div>
+                <div class="color-toggle">
+                    <input type="checkbox" id="color-blue-sky">
+                    <label for="color-blue-sky">
+                        <div class="color-circle blue-sky"></div>
+                        <span>BLUE SKY</span>
+                    </label>
+                </div>
+                <div class="color-toggle">
+                    <input type="checkbox" id="color-purple">
+                    <label for="color-purple">
+                        <div class="color-circle purple"></div>
+                        <span>PURPLE</span>
+                    </label>
+                </div>
+                <div class="color-toggle">
+                    <input type="checkbox" id="color-pink">
+                    <label for="color-pink">
+                        <div class="color-circle pink"></div>
+                        <span>PINK</span>
+                    </label>
+                </div>
+                <div class="color-toggle">
+                    <input type="checkbox" id="color-yellow">
+                    <label for="color-yellow">
+                        <div class="color-circle yellow"></div>
+                        <span>YELLOW</span>
+                    </label>
+                </div>
+                <div class="color-toggle">
+                    <input type="checkbox" id="color-dark-green">
+                    <label for="color-dark-green">
+                        <div class="color-circle dark-green"></div>
+                        <span>DARK GREEN</span>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial">
+            <div class="testimonial-text">
+                <p class="what-people-said">What people said</p>
+                <h2>Love the way they handle the order.</h2>
+                <p class="review">Very professional and friendly at the same time. They packed the order on schedule and the detail of their wrapping is top notch. One of my best experience for buying online items. Surely will come back for another purchase.</p>
+                <p class="author">Samantha William
+                    <span class="author-title">Fashion Enthusiast</span>
+                </p>
+            </div>
+        </section>
+
+        <section class="service">
+            <h2>Why you'll love to<br>shop on our website</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <div class="service-icon"><img src="images/icons/heart_fill.png" alt="Heart Icon"></div>
+                    <h3>Take care with love</h3>
+                    <p>We take care your package with full of attention and of course full of love. We want to make sure you'll receive your package like you receive your birthday gift.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><img src="images/icons/phone.png" alt="Phone Icon"></div>
+                    <h3>Friendly Customer Service</h3>
+                    <p>You do not need to worry when you want to check your package. We will always answer whatever your questions. Just click on the chat icon and we will talk.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"><img src="images/icons/refresh_02.png" alt="Refresh Icon"></div>
+                    <h3>Refund Process</h3>
+                    <p>Refund is a such bad experience and we don't want that thing happen to you. But when it's happen we will make sure you will through smooth and friendly process.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="blog-image">
+                <img src="images/backgroundimage/clothesonrock.png" alt="Clothes on a rack">
+            </div>
+            <div class="blog-content">
+                <p class="from-the-blog">From The Blog</p>
+                <h2>How to combine your daily outfit to looks fresh and cool.</h2>
+                <p class="description">Maybe you don't need to buy new clothes to have nice, cool, fresh looking outfit everyday. Maybe what you need is to combine your clothes collections. Mix and match is the key.</p>
+                <a href="#" class="btn">READ MORE</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-about">
+                <h3>SleekSelects</h3>
+                <p>Your one-stop shop for the latest trends in fashion. Discover unique styles and high-quality apparel.</p>
+                <div class="email-form">
+                    <input type="email" placeholder="Type your email address">
+                    <button type="button">SignUp</button>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>POPULAR</h4>
+                    <ul>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">T-Shirt</a></li>
+                        <li><a href="#">Jackets</a></li>
+                        <li><a href="#">Hat</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>MENU</h4>
+                    <ul>
+                        <li><a href="#">All Category</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Special Events</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>OTHER</h4>
+                    <ul>
+                        <li><a href="#">Tracking Package</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
