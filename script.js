@@ -1,10 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {//ye event listener ye event ko track karta hai
     const heartIcons = document.querySelectorAll('.heart-icon');
     const productCards = document.querySelectorAll('.product-card');
     const wishlistCountElement = document.querySelector('.wishlist-count');
     const cartCountElement = document.querySelector('.cart-count');
     let cartItemCount = 0;
-
+// ye function cart iteam ke liye
     const updateCartCount = () => {
         cartCountElement.textContent = cartItemCount;
         if (cartItemCount > 0) {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cartCountElement.classList.remove('active');
         }
     };
-    
+    //ye function wishlist ke liye
     const updateWishlistCount = () => {
         const likedItemsCount = document.querySelectorAll('.heart-icon.red').length;
         wishlistCountElement.textContent = likedItemsCount;
