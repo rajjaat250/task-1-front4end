@@ -38,11 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
         card.addEventListener('click', () => {
             const productName = card.querySelector('.product-info h3').textContent;
             
-            // Add to cart logic
+            
             cartItemCount++;
             updateCartCount();
-
-            // Confirmation alert
             alert(`Added "${productName}" to your cart!`);
         });
     });
